@@ -1,8 +1,8 @@
 
 
-    var a = prompt("Enter num1: ");
-    var b = prompt("Enter num2: ");
-    var c = prompt("Enter num3: ");
+    var a = prompt(parseInt("Enter num1: "));
+    var b = prompt(parseInt("Enter num2: "));
+    var c = prompt(parseInt("Enter num3: "));
     
     if (a < b && a < c)
         alert( a + " is the smallest");
