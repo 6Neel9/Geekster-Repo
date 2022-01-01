@@ -1,4 +1,4 @@
-var char = parseInt(prompt("Enter Character"));
+var char = prompt("Enter Character");
 
 if((char == "a") || (char == "A")) {
  alert("It is a vowel");
