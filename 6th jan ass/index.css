@@ -1,15 +1,27 @@
 h1{
     text-align: center;
 }
-p{
-    border:2px solid #000000;
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    border: 4px solid #000000;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
     margin-right: 50px;
+}
+p{
+    border: 2px solid rgb(83, 13, 83);
+    margin: 100px;
+    margin-bottom: 50px;
     font-style: italic;
-
-    
 }
 p::first-letter{
     float: left;
