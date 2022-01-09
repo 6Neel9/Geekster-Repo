@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #4285f4;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+.navbar{
+    border: 1px transparent;
+    background: url("https://xd.adobe.com/ideas/wp-content/uploads/2020/09/Being-Shady-How-to-Use-Gradient-Color-in-UX-Design-1-1100x550.jpeg");
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    word-spacing: 20px;
+    position: sticky;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 3px;
+    right: -15px;
+}
+.right{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
+.right button{
+    border-radius: 20%;
+    border: transparent;
+}
+input[type="text"]:hover{
+    background-color: wheat;
+}
+.box1{
+    border:1px solid black;
+    border: transparent ;
+    margin-left: 125px;
+    margin-right: 500px;
+    margin-top: 200px;
+}
+.box1 h1{
+    font-size: 40px;
+}
+.box1 h5{
+    font-variant: small-caps;
+}
+.box1 input[type="email"]{
+    height: 40px;
+    font-size: 12px;
+    border: transparent;
+}
+.box1 button{
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #4285f4 ;
+    border-radius: 7px;
+    border: transparent;
+}
+.box2{
+    border: 1px solid black;
+    float: right;
+    margin-top: -250px;
+    border: transparent;
+    border-color: white;
+    
+}
