@@ -11,6 +11,6 @@ function add9(x){
     return x + 9;
 }
 var func = manArr(num,mulBy4,add9);
-console.log(func);
-document.write(func);
+console.log('The multiplication and summation are ',func);
+document.write('The multiplication and summation are ', func);
 
