@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 body{
-    width: 350px;
+    width: 400px;
     height: 100vh;
-    margin-left: 250px;
+    margin-left: 450px;
 }
 .navbar-1 span{
     padding-left: 10px;
