@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 26, 77);
+    font-size: 20px;
+}  
+  
+  img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 8, 27);
+  }
+  
+  .container {
+    border: 2px solid rgb(81, 174, 143);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .button-container {
+    margin-bottom: 10px;
+  }
+  button{
+      border: transparent;
+      color: aqua;
+      font-size: 20px;
+  }
+  .random-btn{
+      border: 1px solid aqua;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      border-radius: 8px;
+  }
+  
+  input {
+    /* text-align: center; */
+    border: transparent;
+    outline: none;
+  }
+  
+  .input-div {
+    display: flex;
+    background-color: white;
+  }
+ #job{
+      color: aqua;
+  }
+  a{
+      text-decoration: none;
+  }
+  .mid{
+    display: flex;
+    justify-content: center;
+  }
