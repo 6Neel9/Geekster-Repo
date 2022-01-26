@@ -1,4 +1,4 @@
-var url = "http://universities.hipolabs.com/search?country=india"
+var url = "https://api2.binance.com/api/v3/ticker/24hr"
 var data = fetch(url);
 data.then(fullFill).then(secFull).catch(notFul);
 function fullFill(arg){
@@ -9,10 +9,10 @@ function notFul(arg){
 }
 function secFull(arg){
     console.log(arg)
-    li.innerText = arg[0].country;
-    li1.innerText = arg[0].name;
-    li2.innerText = arg[0].domains;
-    li3.innerText = arg[0]["state-province"]; 
+    li.innerText = arg[0].symbol;
+    li1.innerText = arg[0].priceChange;
+    li2.innerText = arg[0].weightedAvgPrice;
+    li3.innerText = arg[0]["openTime"]; 
 }
 body1 = document.getElementById("container");
 var div = document.createElement("div");
@@ -31,4 +31,3 @@ ol.appendChild(li);
 ol.appendChild(li1);
 ol.appendChild(li2);
 ol.appendChild(li3);
-
