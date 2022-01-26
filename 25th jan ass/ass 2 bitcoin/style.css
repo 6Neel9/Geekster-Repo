@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+    background-image: linear-gradient(to right,#141e30,#243b55);
+}
+ul{
+    background-image: linear-gradient(to right,#7b4397,#dc2430);
+}
+li{
+    color: whitesmoke
+}
+ul:hover{
+    border: 1px solid;
+    background-image: linear-gradient(black,purple);
+    border-radius: 10px;
+}
