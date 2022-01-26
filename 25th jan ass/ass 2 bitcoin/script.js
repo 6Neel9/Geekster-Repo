@@ -3,7 +3,7 @@ fetch(url)
 .then((sats) => sats.json())
 .then((fullysat) => {
     console.log(fullysat);
-    for (let i = 0; i < 99; i++){
+    for (let i = 0; i < 100; i++){
         var body = document.getElementById("container");
         var div = document.createElement("div");
         var table = document.createElement("table");
