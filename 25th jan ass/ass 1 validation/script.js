@@ -68,7 +68,7 @@ function checkPassword(element) {
             break
         }
         else{
-            setError(element, "password doesn't contain special characters");
+            setError(element, "password doesn't contain special characters (,#,@");
         }     
     }
   }
