@@ -49,8 +49,8 @@ for(let i = 0; i < heart.length; i++){
 
 var change_img = document.getElementById("id1")
 change_img.src = img_cont[0]
-var change_img = document.getElementById("id2")
-change_img.src = img_cont[1]
-var change_img = document.getElementById("id3")
-change_img.src = img_cont[2]
+var change_img1 = document.getElementById("id2")
+change_img1.src = img_cont[1]
+var change_img2 = document.getElementById("id3")
+change_img2.src = img_cont[2]
 
