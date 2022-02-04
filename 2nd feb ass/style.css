@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to left , blue , red);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    /* background-image: linear-gradient(to right, blue , green); */
+}
+.timer{
+    border: 1px solid;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    padding: 10px;
+}
+button{
+    height: 30px;
+    width: 70px;
+    border: transparent;
+    font-weight: bold;
+    background-color: #4285F4;
+}
+button:hover{
+    background-color:blue;
+}
+#stop{
+  background-color: #4285F4;
+}
+#stop:hover{
+    background-color: blue;
+}
+#resume{
+        background-color: white;
+}
+#resume:hover{
+    background-color: grey;
+}
+.empty{
+    /* border: 1px solid white; */
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    border-radius: 15px;
+}
+.empty1{
+    border-radius: 15px;
+    height: 100%;
+    background-color: rgb(125,44,255);
+    /* animation: progress-animation 301s forwards; */
+   
+}
+/* @keyframes progress-animation{
+    100% {width: 100%;}
+    0% {width: 0%;}
+}
+ */
+
+
+
