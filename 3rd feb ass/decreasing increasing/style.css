@@ -1,0 +1,7 @@
+.body1{
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid;
+    width: 300px;
+    justify-content: space-between;
+}
